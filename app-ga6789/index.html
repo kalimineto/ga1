@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head><meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ga6789</title>
+  <style>
+    @keyframes arcu-pulse {
+        0% {
+            transform: translate(-50%, -50%) scale(0.8);
+            opacity: 1;
+        }
+        50% {
+            opacity: 0.5;
+        }
+        100% {
+            transform: translate(-50%, -50%) scale(1.6);
+            opacity: 0;
+        }
+    }
+    /*@keyframes shockware {*/
+    /*    0% {*/
+    /*        box-shadow: 0 0 2px rgba(0, 0, 0, .15), inset 0 0 1px rgba(0, 0, 0, .15);*/
+    /*        transform: scale(1);*/
+    /*    }*/
+        
+    /*    95% {*/
+    /*        box-shadow: 0 0 50px transparent, inset 0 0 30px transparent;*/
+    /*    }*/
+    /*    100% {*/
+    /*        transform: scale(2.25);*/
+    /*    }*/
+    /*}*/
+    
+    @keyframes shockwave {
+      0% {
+            box-shadow: 0 0 2px rgba(0, 0, 0, .15), inset 0 0 1px rgba(0, 0, 0, .15);
+            transform: scale(1);
+        }
+        95% {
+            box-shadow: 0 0 50px transparent, inset 0 0 30px transparent;
+        }
+        100% {
+            transform: scale(1.1);
+        }
+    }
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #fff8e1;
+      margin: 0;
+      padding: 0;
+    }
+    .logo {
+      margin-top: 30px;
+      width: 150px;
+      border-radius: 50%;
+      border: 5px solid #ffb300;
+    }
+    h1 {
+      color: #d2691e;
+      margin: 10px 0;
+    }
+    p {
+      color: #555;
+      margin-bottom: 30px;
+    }
+    .button {
+      display: block;
+      margin: 10px auto;
+      padding: 15px 20px;
+      width: 80%;
+      border-radius: 30px;
+      background: linear-gradient(to right, #f9d423, #ff4e50);
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .login-button {
+      background: linear-gradient(to right,rgb(138, 4, 4),rgb(161, 139, 40));
+    }
+    .button img {
+      height: 24px;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+    .social-bar {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    .icon-item {
+        position: relative;
+        z-index: 1;
+      width: 50px;
+      height: 50px;
+      /*transition: transform 0.3s, box-shadow 0.3s;*/
+      cursor: pointer;
+        /*animation: arcu-pulse 2s infinite;*/
+        /*animation-delay: 0.5s;*/
+        animation: shockwave .5s infinite ease-in-out;
+    }
+    .icon-item img{
+      width: 50px;
+      height: 50px;
+      /*transition: transform 0.3s, box-shadow 0.3s;*/
+      cursor: pointer;
+    }
+   
+    .icon-item::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to right, #f9d423, #ff4e50);
+        border-radius: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        z-index: -1;
+        animation: arcu-pulse .5s infinite;
+    }
+    .icon-item::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        border-radius: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        z-index: -1;
+        animation: arcu-pulse 1.5s infinite;
+    }
+
+    /*.social-icon:hover {*/
+    /*  transform: scale(1.2);*/
+      
+    /*}*/
+    .section-title {
+        position: relative;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 30px 0;
+    }
+
+    .section-title::before,
+    .section-title::after {
+        content: "";
+        display: inline-block;
+        width: 50px;
+        height: 2px;
+        background-color: #ccc;
+        vertical-align: middle;
+        margin: 0 15px;
+    }
+
+  </style>
+</head>
+<body>
+  <img src="./../wp-content/themes/child/app_ga6789/logo.png" alt="Ga6789 Logo" class="logo">
+  <!--<h1>Ga6789</h1>-->
+  <!--<p>LIVE GÀ THOMO<br>CÙNG MC XINH ĐẸP</p>-->
+
+  <h3 class="section-title">ĐĂNG NHẬP</h3>
+
+  <a href="https://www.t10aga6789.com/login" class="button login-button" target="_blank"><img src="./../wp-content/themes/child/app_ga6789/logo.png" alt="Icon"> Link Đăng Nhập 1</a>
+  <a href="https://www.t9vah99.com/login" class="button login-button" target="_blank"><img src="./../wp-content/themes/child/app_ga6789/logo.png" alt="Icon"> Link Đăng Nhập 2</a>
+  <a href="https://www.11fa75-12.xyz/login" class="button login-button" target="_blank"><img src="./../wp-content/themes/child/app_ga6789/logo.png" alt="Icon"> Link Đăng Nhập 3</a>
+
+  <h3 class="section-title">HOẶC ĐĂNG KÝ</h3>
+
+  <a href="https://www.t10aga6789.com/?uagt=mxone19&amp;path=signup" class="button" target="_blank"><img src="./../wp-content/themes/child/app_ga6789/logo.png" alt="Icon"> Link Đăng Ký 1</a>
+  <a href="https://www.t9vah99.com/?uagt=newapp6789&amp;path=signup" class="button" target="_blank"><img src="./../wp-content/themes/child/app_ga6789/logo.png" alt="Icon"> Link Đăng Ký 2</a>
+  <a href="https://www.11fa75-12.xyz/?uagt=newapp6789&amp;path=signup" class="button" target="_blank"><img src="./../wp-content/themes/child/app_ga6789/logo.png" alt="Icon"> Link Đăng Ký 3</a>
+
+  <div class="social-bar" style="margin-bottom: 75px">
+    <div class="icon-item">
+        <img src="./../wp-content/themes/child/app_ga6789/zalo.png" alt="Zalo" class="social-icon" onclick="playClick(); window.open('https://zalo.me/0913501556','_blank')">
+    </div>
+    <div class="icon-item">
+        <img src="./../wp-content/themes/child/app_ga6789/telegram2.png" alt="Telegram" class="social-icon" onclick="playClick(); window.open('https://web.telegram.org/k/#@CSKH_GA67899')">
+    </div>
+    <div class="icon-item">
+        <img src="./../wp-content/themes/child/app_ga6789/facebook2.png" alt="Facebook" class="social-icon" onclick="playClick(); window.open('https://www.facebook.com/ga6789chinhthuc','_blank')">
+    </div>
+    <div class="icon-item">
+        <img src="./../wp-content/themes/child/app_ga6789/tik-tok.png" alt="TikTok" class="social-icon" onclick="playClick(); window.open('https://www.tiktok.com/@Ga6789chinhthuc','_blank')">
+    </div>
+</div>
+
+
+  <audio id="clickSound">
+    <source src="./../wp-content/themes/child/app_ga6789/click.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    function playClick() {
+      var audio = document.getElementById("clickSound");
+      if (audio) {
+        audio.currentTime = 0;
+        audio.play();
+      }
+    }
+  </script>
+</body>
+</html>
